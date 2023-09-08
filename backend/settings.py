@@ -135,6 +135,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 # Add this
 # we whitelist localhost:3000 because that's where frontend will be served
 CORS_ORIGIN_WHITELIST = (
+     'http://localhost:3000',
     'https://tasksheduller.onrender.com/',
 )
 
