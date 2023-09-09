@@ -136,7 +136,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 # we whitelist localhost:3000 because that's where frontend will be served
 CORS_ORIGIN_WHITELIST = (
      'http://localhost:3000',
-    https://taskscheduler.onrender.com/,
+    'https://taskscheduler.onrender.com/',
 )
 
 '''Django-cors-headers is a python library that will help in preventing the errors that we would normally get due to CORS. rules. In the CORS_ORIGIN_WHITELIST snippet, we whitelisted localhost:3000 because we want the frontend (which will be served on that port) of the application to interact with the API.'''
